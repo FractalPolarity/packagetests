@@ -9,6 +9,7 @@ sum_columns <- function(data){
 #' and range for numeric values
 #'@param data input dataset
 #'@export
+#'@rdname sum_columns
 return_class_specific_attr <- function(data){
   purrr::map_if(data, is.numeric, range) %>%
     purrr::map_if(is.character, unique) %>%
