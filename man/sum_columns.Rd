@@ -2,13 +2,19 @@
 % Please edit documentation in R/functions.R
 \name{sum_columns}
 \alias{sum_columns}
+\alias{return_class_specific_attr}
 \title{Sum numeric columns of input data}
 \usage{
 sum_columns(data)
+
+return_class_specific_attr(data)
 }
 \arguments{
 \item{data}{dataset on which to perform operation}
 }
 \description{
 Sum numeric columns of input data
+
+Display levels for factors, unique, for characters
+and range for numeric values
 }

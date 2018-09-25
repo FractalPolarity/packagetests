@@ -7,7 +7,7 @@ sum_columns <- function(data){
 #' Display levels for factors, unique, for characters
 #' and range for numeric values
 #'
-#'
+#'@rdname sum_columns
 return_class_specific_attr <- function(data){
   purrr::map_if(data, is.numeric, range) %>%
     purrr::map_if(is.character, unique) %>%
