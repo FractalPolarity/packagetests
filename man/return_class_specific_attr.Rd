@@ -7,6 +7,9 @@ and range for numeric values}
 \usage{
 return_class_specific_attr(data)
 }
+\arguments{
+\item{data}{input dataset}
+}
 \description{
 Display levels for factors, unique, for characters
 and range for numeric values
