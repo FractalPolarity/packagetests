@@ -11,6 +11,8 @@ return_class_specific_attr(data)
 }
 \arguments{
 \item{data}{dataset on which to perform operation}
+
+\item{data}{input dataset}
 }
 \description{
 Sum numeric columns of input data
